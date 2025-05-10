@@ -95,7 +95,7 @@ function createWindow() {
 
     mainWindow.loadFile(path.join(__dirname, "dist", "index.html"));
 
-    // Menu.setApplicationMenu(null);
+    Menu.setApplicationMenu(null);
     return mainWindow;
 }
 
